@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.placeholder-xs::placeholder {
+    @apply text-xs;
+  }
+
+  .placeholder-lg::placeholder {
+    @apply text-lg;
+  }
+
+  .hidden {
+    display: none;
+  }
